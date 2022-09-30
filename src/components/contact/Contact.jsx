@@ -15,6 +15,7 @@ const Contact = () => {
 
         
         .then((result) => {
+            alert ("Your email has been sent!")
             console.log(result.text);
         }, (error) => {
             console.log(error.text);
@@ -25,16 +26,16 @@ const Contact = () => {
 
     return (
         <section id='contact'>
-            <h5>Get In Touch</h5>
-            <h2>Contact Me</h2>
+            {/* <h5>Get In Touch</h5> */}
+            <h2><b>CONTACT</b></h2>
 
             <div className="container contact__container">
                 <div className="contact__options">
-                    <article className='contact__option'>
+                    {/* <article className='contact__option'>
                         <MdOutlineEmail className='contact__option-icon'/>
                         <h4>Email</h4>
                         <a href="mailto: kjr.babauta@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
-                    </article>
+                    </article> */}
                     <article className='contact__option'>
                         <AiOutlineLinkedin className='contact__option-icon'/>
                         <h4>LinkedIn</h4>
