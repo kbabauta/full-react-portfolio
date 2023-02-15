@@ -32,12 +32,7 @@ const Contact = () => {
 
             <div className="container contact__container">
                 <div className="contact__options">
-                    {/* <article className='contact__option'>
-                        <MdOutlineEmail className='contact__option-icon'/>
-                        <h4>Email</h4>
-                        <a href="mailto: kjr.babauta@gmail.com" target="_blank" rel="noreferrer">Send a message</a>
-                    </article> */}
-                    <article className='contact__option'>
+                        <article className='contact__option'>
                         <AiOutlineLinkedin className='contact__option-icon'/>
                         <h4>LinkedIn</h4>
                         <a href="https://www.linkedin.com/in/kevinbabauta/" target="_blank" rel="noreferrer">Connect With Me</a>
